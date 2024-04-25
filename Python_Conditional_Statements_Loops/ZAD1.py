@@ -1,5 +1,5 @@
 #Konwersja temperatury z i do stopni Celsjusza i Fahrenheita:
-temp = input("Input the temperature you like to convert? (e.g., 45F, 102C etc.) : ")
+temp = input("Input the temperature you like to convert? : ")
 degree = int(temp[:-1])
 i_convention = temp[-1]
 if i_convention.upper() == "C":
